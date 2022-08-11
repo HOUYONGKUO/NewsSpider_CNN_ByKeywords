@@ -9,8 +9,8 @@ conda env create -f newsspider.yml
 `
 
 ### Set Types, sections, sort and other info
-Second, you can refer to the sections below to restrict the specific categories of content to be crawled through custom URL filtering constraints.
-Sections = us,politics,world,opinion,health/business/entertainment/sport/travel/style, if all CNN just no section  
+Second, you can refer to the sections below to restrict the specific categories of content to be crawled through custom URL filtering constraints.  
+Sections = us, politics,world,opinion, health/business/entertainment/sport/travel/style, if all CNN just no section  
 `
 URL = 'https://edition.cnn.com/search?size=10&q=' + keywords + '&sections=us,politics,world,opinion,health' + '&types=article' + '&sort=relevance'
 `
